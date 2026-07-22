@@ -27,6 +27,17 @@ systems blend both and add signals like likes, skips, and how long you listen be
 do collaborative filtering. It compares each song's attributes directly to a user's stated
 preferences and scores the fit.
 
+**Three distinct pieces.** It helps to keep three things separate:
+
+1. **Input data** — the fixed facts *about each song* (genre, mood, energy, tempo, decade, …). This
+   comes from the dataset and never changes based on who is listening.
+2. **User preferences** — what *one listener* wants (favorite genre/mood, target energy, …). This is
+   separate from the song data; it's the "query" we compare the songs against.
+3. **Ranking / selection** — the step that combines the two: score every song (data vs. preferences),
+   sort by score, and select the top *k*. This is what turns raw scores into an ordered recommendation.
+
+Real platforms follow the same shape at scale — item data + a model of your taste → a ranked feed.
+
 **Features each `Song` uses:** `genre`, `mood`, `energy` (0.0–1.0), `tempo_bpm`, `valence`,
 `danceability`, `acousticness`, plus the advanced features added in the extensions: `popularity`
 (0–100), `release_decade`, `mood_tags` (detailed tags like `nostalgic|warm`), `instrumental`, and

@@ -52,8 +52,9 @@ top list isn't all one artist.
 - **Changes I made:** added 8 songs covering genres/moods missing from the starter (edm, hip hop,
   metal, r&b, folk, country, classical, reggae; moods like sad, romantic, aggressive, nostalgic),
   and added 5 advanced feature columns to every song.
-- **What's missing:** the catalog still leans toward pop/lofi/electronic. There is no world/latin,
-  no vocal-vs-instrumental flag, no era/decade, and no lyrics or language information.
+- **What's missing:** the catalog still leans toward pop/lofi/electronic. There is no world/latin
+  representation, no lyrics content, and only a single non-English tag — the `language` column is
+  almost entirely `english`/`instrumental`, so it can't really support language-based taste.
 
 ---
 
@@ -97,12 +98,12 @@ adversarial **Conflicted (loud + sad)** profile.
   rule moved the list in the expected direction.
 - **Profile comparisons:**
   - *Happy Pop vs. Chill Lofi:* the Pop profile surfaces bright, high-energy pop
-    (Sunrise City, 4.96), while the Lofi profile shifts entirely to low-energy, acoustic tracks
-    (Library Rain, 5.50). This confirms the energy and acoustic rules do real work — the two lists
+    (Sunrise City, 5.40), while the Lofi profile shifts entirely to low-energy, acoustic tracks
+    (Library Rain, 5.79). This confirms the energy and acoustic rules do real work — the two lists
     share no songs.
   - *Deep Intense Rock vs. Conflicted (loud + sad):* both ask for energy ~0.9, but Rock gets a clean
-    rock/intense #1 (Storm Runner, 4.98) whereas the Conflicted profile's #1 is a *quiet* folk/sad
-    song (Broken Compass, 3.82) that wins on genre+mood despite failing the energy request. Same
+    rock/intense #1 (Storm Runner, 5.34) whereas the Conflicted profile's #1 is a *quiet* folk/sad
+    song (Broken Compass, 4.08) that wins on genre+mood despite failing the energy request. Same
     energy target, very different results — because the categorical weights, not energy, decide it.
 - **What surprised me:** `Gym Hero` (pop/intense) shows up in three of the four lists. It's a high-
   energy pop song, so it scores well on energy for almost any energetic profile *and* gets the pop
