@@ -1,11 +1,19 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,popularity,release_decade,mood_tags,instrumental,language
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18,88,2020,euphoric|uplifting,False,english
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71,64,2020,focused|mellow,True,instrumental
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10,72,2010,aggressive|driving,False,english
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86,59,2020,calm|dreamy,True,instrumental
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05,81,2020,energetic|hype,False,english
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92,47,2020,dreamy|calm,True,instrumental
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89,55,2010,warm|mellow,True,instrumental
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22,68,2010,nostalgic|dark,False,english
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78,61,2020,focused|calm,True,instrumental
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35,74,2020,uplifting|warm,False,english
+11,Neon Warehouse,Pulse Theory,edm,energetic,0.95,128,0.72,0.91,0.03,85,2020,euphoric|hype,False,english
+12,Broken Compass,Ash Meridian,folk,sad,0.31,68,0.22,0.34,0.88,52,2010,melancholy|nostalgic,False,english
+13,Concrete Kings,Vex Dial,hip hop,aggressive,0.84,96,0.55,0.85,0.08,90,2020,aggressive|confident,False,english
+14,Velvet Hours,Cielo Rae,r&b,romantic,0.54,92,0.68,0.71,0.30,77,2010,sensual|warm,False,english
+15,Iron Verdict,Blackspire,metal,aggressive,0.97,168,0.35,0.58,0.04,66,2000,aggressive|dark,False,english
+16,Amber Fields,Willow Grange,country,nostalgic,0.49,102,0.62,0.55,0.64,58,1990,nostalgic|warm,False,english
+17,Adagio in Blue,String Atlas,classical,relaxed,0.24,64,0.44,0.28,0.95,43,1980,calm|melancholy,True,instrumental
+18,Island Delay,Tide Marlow,reggae,relaxed,0.58,86,0.79,0.76,0.41,63,2000,warm|uplifting,False,english
